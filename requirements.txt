@@ -1,2 +1,2 @@
 aiohttp==3.12.15
-weasyprint==58.3
+reportlab==3.7.0
