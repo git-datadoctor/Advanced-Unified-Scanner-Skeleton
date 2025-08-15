@@ -58,3 +58,27 @@ This Python script is a **fully automated, multi-user parallel bug bounty scanne
   pip install aiohttp pdfkit
   sudo apt install wkhtmltopdf
 python3 syfe_parallel_scan.py
+
+# Syfe Ultimate Multi-User Parallel Bug Bounty Scanner
+
+## Overview
+Automated multi-user parallel scanner for Syfe UAT/test environments.
+Generates PDF report of results using ReportLab (Python-only).
+
+## Requirements
+- Python 3.13
+- pip install -r requirements.txt
+
+## Usage
+1. Configure DOMAINS, ENDPOINTS, TOKENS in `syfe_parallel_scan.py`.
+2. Run: `python3 syfe_parallel_scan.py`
+3. Output PDF in `syfe_parallel_scan_output/`
+
+## Notes
+- Authorized testing only.
+- No system dependencies (ReportLab used instead of WeasyPrint/wkhtmltopdf).
+
+## Render Deploy
+- Build Command: `pip install -r requirements.txt`
+- Start Command: `python3 syfe_parallel_scan.py`
+
