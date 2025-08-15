@@ -1,1 +1,9 @@
 
+your-project/
+│
+├── app.py                # <- FastAPI app
+├── syfe_parallel_scan.py # <- CLI runner (PDF path নেয়)
+├── syfe_scan_core.py     # <- Scan logic & PDF generator
+├── syfe_parallel_scan_output/
+│     └── (PDFs here)
+└── requirements.txt      # <- Dependencies
