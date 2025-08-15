@@ -14,3 +14,7 @@ multidict==6.6.4
 propcache==0.3.2
 charset-normalizer==3.4.3
 idna==3.10
+fastapi
+uvicorn
+aiohttp
+reportlab
